@@ -10,28 +10,28 @@ With the Aggro Score Library, players can focus on their characters and the stor
 ## Rules
 - We'll have a list of characters.
 - Each character will have an aggro score.
-- Aggro score will be the sum of all aggro points for each character.
-- Actions performed by the character will grant her a given amount of APs.
-- Character state, AC and health may also grant APs.
+- The aggro score will be the sum of all aggro points for each character.
+- Actions performed by the character will grant a certain amount of APs.
+- Character stats, AC and health can also grant APs.
 - We'll use initiative order to break aggro ties.
 
 ### Initial aggro
 
-Every character begins with an initial aggro based on visible clothes, equipment and effects, plus an starting amount.
+Each character starts with an initial amount of aggro based on visible clothing, equipment and effects, plus a starting amount.
 - Starting amount: 30 AP.
 - Apparent AC: -1 AP per AC.
-- Wearing 2 handed weapon: 1 AP.
+- Carrying a 2-handed weapon: 1 AP.
 
-### Factors that grants APs
+### Factors that grant AP
 
-- Deal damage: 1 AP per rolled damage point.
+- Dealing damage: 1 AP per damage rolled.
 - Area damage: 2 AP per HP amount.
 - Heal: 1 AP per HP healed.
-- Area heal: 2 AP per HP amount.
-- Cast spells: 1 + spell level AP.
+- Area heal: 2 AP per HP amount healed.
+- Casting spells: 1 + spell level.
 
 ## Acronyms & Terms
-- **AC**: Armour Class.
-- **AG**: Aggro Score.
+- **AC**: Armour class.
+- **AG**: Aggro rating.
 - **AP**: Aggro Points.
 - **HP**: Hit Point.
