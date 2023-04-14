@@ -6,3 +6,16 @@ The Aggro Score Library uses a scoring system to calculate which enemy will atta
 The library is easy to use, and can be integrated into any tabletop RPG system. Simply input the relevant data for each NPC or monster, and the Aggro Score Library will automatically calculate which enemy will attack next.
 
 With the Aggro Score Library, players can focus on their characters and the story, without worrying about the mechanics of combat. Whether you're a seasoned player or a newcomer to tabletop RPGs, the Aggro Score Library is an essential tool for any sandbox campaign.
+
+## Rules
+- We'll have a list of characters.
+- Each character will have an aggro score.
+- Aggro score will be the sum of all aggro points for each character.
+- Actions performed by the character will grant her a given amount of APs.
+- Character state, AC and health may also grant APs.
+- We'll use initiative order to break aggro ties.
+
+## Acronyms & Terms
+- **AC**: Armour Class.
+- **AG**: Aggro Score.
+- **AP**: Aggro Points.
