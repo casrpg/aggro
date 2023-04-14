@@ -15,7 +15,23 @@ With the Aggro Score Library, players can focus on their characters and the stor
 - Character state, AC and health may also grant APs.
 - We'll use initiative order to break aggro ties.
 
+### Initial aggro
+
+Every character begins with an initial aggro based on visible clothes, equipment and effects, plus an starting amount.
+- Starting amount: 30 AP.
+- Apparent AC: -1 AP per AC.
+- Wearing 2 handed weapon: 1 AP.
+
+### Factors that grants APs
+
+- Deal damage: 1 AP per rolled damage point.
+- Area damage: 2 AP per HP amount.
+- Heal: 1 AP per HP healed.
+- Area heal: 2 AP per HP amount.
+- Cast spells: 1 + spell level AP.
+
 ## Acronyms & Terms
 - **AC**: Armour Class.
 - **AG**: Aggro Score.
 - **AP**: Aggro Points.
+- **HP**: Hit Point.
