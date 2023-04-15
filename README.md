@@ -26,10 +26,20 @@ Each character starts with an initial amount of aggro based on visible clothing,
 
 - Dealing damage: 1 AP per damage rolled.
 - Dealing Area damage: 2 AP per HP amount.
-- Heal: 1 AP per HP healed.
+- Heal others: 1 AP per HP healed.
+- Get healed: -1 AP per HP healed.
 - Area heal: 2 AP per HP amount healed.
 - Casting spells: 1 + spell level.
 - Getting hurt: 1 AP per HP got.
+
+## Virtual aggro
+Virtual aggro is the AG a character could have for many situations, but does not add as permanent aggro.
+The foe needs to know these situations to add the virtual aggro.
+
+- Advantage: X1,25 rounded up.
+- Disadvantage: X0,75 rounded up.
+- Endurance to the type of damage dealt: X0,5 rounded up.
+- Debility to the type of damage dealt: X2.
 
 ## Acronyms & Terms
 - **AC**: Armour class.
