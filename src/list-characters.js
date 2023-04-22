@@ -1,4 +1,4 @@
-import { Character, defaultEquipment } from './Character';
+import { Character, defaultEquipment } from './Character.js';
 
 const virtualAggroConstants = {advantage: 5/4, disadvantage: 3/4, endurance: 1/2, debility: 2}
 

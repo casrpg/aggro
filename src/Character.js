@@ -6,7 +6,7 @@ export class Character {
         this.equipment = equipment;
         this.state = state;
     }
-    
+
     aggroScore() {
         const STARTING_AGGRO_SCORE = 30;
         let score = STARTING_AGGRO_SCORE;
