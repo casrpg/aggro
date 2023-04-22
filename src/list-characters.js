@@ -10,7 +10,8 @@ const aragorn = new Character('Aragorn', {...defaultEquipment, carryTwoHandWeapo
 
 const characters = [legolas, gimli, gandalf, aragorn];
 
-const maxCharacterNameLength = (characterList) => {
+const printCharacterList = (characterList) => {
+  const maxCharacterNameLength = (characterList) => {
     const maxLength = characterList.reduce((length, character) => {
         return Math.max(length, character.name.length)
     }, 0)
@@ -35,5 +36,8 @@ characters.forEach(function(character, index){
     const name = character.name.padEnd(nameColumnLength, ' ');
     console.log(`${order} - ${name} ${score}  ${advantage}    ${disadvantage}    ${endurance}     ${debility}    ${advPlusEnd}          ${advPlusDeb}         ${disPlusEnd}         ${disPlusDeb}`);
 });
+}
+
+printCharacterList(characters);
 
 
