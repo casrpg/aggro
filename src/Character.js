@@ -4,6 +4,18 @@ export class Character {
   constructor(name, equipment = defaultEquipment) {
     this.name = name;
     this.equipment = equipment;
+    this.advantageStatus = null;
+  }
+
+  giveAdvantage(){
+    this.advantageStatus = 'advantage';
+  }
+
+  get advantageFactor() {
+    if(this.advantageStatus === 'advantage'){
+      return 5/4;
+    }
+    return 1;
   }
 
   aggroScore() {
