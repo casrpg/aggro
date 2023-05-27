@@ -7,6 +7,7 @@
   "main": "src/index.js",
   "scripts": {
     "test": "vitest",
+    "test:ci": "vitest --run --reporter=verbose",
     "lint": "eslint src",
     "lint:fix": "eslint src --fix",
     "list-characters": "node src/list-characters"
