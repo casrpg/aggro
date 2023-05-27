@@ -2,13 +2,9 @@ name: Node Test
 
 on:
   push:
-    branches: 
-    - "main"
-    - "aca/*"
-    - "cca/*"
+    branches: ["main", "aca/*", "cca/*"]
   pull_request:
-    branches: 
-    -"main"
+    branches: ["main"]
 
 jobs:
   build:
