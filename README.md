@@ -30,7 +30,7 @@ Each character starts with an initial amount of aggro based on visible clothing,
 - Get healed: -1 AP per HP healed.
 - Area heal: 2 AP per HP amount healed.
 - Casting spells: 1 + spell level.
-- Getting hurt: 1 AP per HP got.
+- Getting hurt: 1 AP per HP taken.
 
 ## Virtual aggro
 Virtual aggro is the AG a character could have for many situations, but does not add as permanent aggro.

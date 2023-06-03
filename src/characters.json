@@ -1,0 +1,17 @@
+{
+  "characters": [
+    {
+      "name": "Legolas",
+      "equipment": {
+        "ac": 14
+      }
+    },
+    {
+      "name": "Gimli",
+      "equipment": {
+        "ac": 18,
+        "carryTwoHandWeapon": true
+      }
+    }
+  ]
+}
