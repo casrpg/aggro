@@ -15,7 +15,7 @@ export class Character {
     this.advantageStatus = ADVANTAGE;
   }
 
-  giveDisAdvantage(){
+  giveDisadvantage(){
     this.advantageStatus = DISADVANTAGE;
   }
 

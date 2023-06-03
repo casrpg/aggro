@@ -28,13 +28,6 @@ describe('Character', () => {
       expect(character.advantageFactor).toBe(1);
     });
 
-
-    it('should be 3/4 when character has disadvantage', () =>{
-      character.giveDisAdvantage();
-
-      expect(character.advantageFactor).toBe(3/4);
-    });
-
     describe('for a character with advantage', () => {
       beforeEach(() => {
         character.giveAdvantage();
@@ -51,9 +44,37 @@ describe('Character', () => {
       });
 
       it('should have factor 3/4 after giving it disadvantage', () => {
-        character.giveDisAdvantage();
+        character.giveDisadvantage();
 
         expect(character.advantageFactor).toBe(3/4);
+      });
+
+      it('should have factor 1 after resetting it', () => {
+        character.resetAdvantage();
+
+        expect(character.advantageFactor).toBe(1);
+      });
+    });
+
+    describe('for a character with disadvantage', () => {
+      beforeEach(() => {
+        character.giveDisadvantage();
+      });
+
+      it('should have 3/4 factor', () => {
+        expect(character.advantageFactor).toBe(3/4);
+      });
+
+      it('should not change the factor giving it disadvantage again', () => {
+        character.giveDisadvantage();
+
+        expect(character.advantageFactor).toBe(3/4);
+      });
+
+      it('should have factor 5/4 after giving it advantage', () => {
+        character.giveAdvantage();
+
+        expect(character.advantageFactor).toBe(5/4);
       });
 
       it('should have factor 1 after resetting it', () => {
