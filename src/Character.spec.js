@@ -33,5 +33,11 @@ describe('Character', () => {
 
       expect(character.advantageFactor).toBe(5/4);
     });
+
+    it('should be 3/4 when character has disadvantage', () =>{
+      character.giveDisAdvantage();
+
+      expect(character.advantageFactor).toBe(3/4);
+    });
   });
 });

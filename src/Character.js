@@ -11,9 +11,17 @@ export class Character {
     this.advantageStatus = 'advantage';
   }
 
+  giveDisAdvantage(){
+    this.advantageStatus = 'disAdvantage';
+  }
+
   get advantageFactor() {
     if(this.advantageStatus === 'advantage'){
       return 5/4;
+    }
+
+    if (this.advantageStatus === 'disAdvantage'){
+      return 3/4;
     }
     return 1;
   }
