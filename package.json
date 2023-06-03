@@ -6,6 +6,7 @@
   "description": "Utility to calculate Aggro Score for characters in a D&D combat",
   "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.js",
     "test": "vitest",
     "test:ci": "vitest --run --reporter=verbose",
     "lint": "eslint src",
