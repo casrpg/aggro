@@ -10,7 +10,7 @@
     "test:ci": "vitest --run --reporter=verbose",
     "lint": "eslint src",
     "lint:fix": "eslint src --fix",
-    "list-characters": "node src/list-characters"
+    "list-characters": "node src/listCharacters"
   },
   "repository": {
     "type": "git",
