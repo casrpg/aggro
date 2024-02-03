@@ -1,16 +1,14 @@
 export class ListCharactersUseCase {
-    #charactersRepo
+  #charactersRepo;
 
-    constructor({charactersRepo}){
-        if (!charactersRepo.getAll) {
-            throw new Error("characterRepo should be a CharacterRepository")
-        }
-        this.#charactersRepo = charactersRepo
+  constructor({charactersRepo}){
+    if (!charactersRepo.getAll) {
+      throw new Error('characterRepo should be a CharacterRepository');
     }
+    this.#charactersRepo = charactersRepo;
+  }
 
-    async Execute() {
-        return this.#charactersRepo.getAll()
-    }
+  async Execute() {
+    return this.#charactersRepo.getAll();
+  }
 }
-
-// 
